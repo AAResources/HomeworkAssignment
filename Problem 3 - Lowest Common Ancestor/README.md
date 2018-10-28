@@ -16,14 +16,15 @@ Arhiva trebuie sa contina fisierele:
     * Fiecare test va fi numit "testID.in", unde ID reprezintă numărul
     testului (e.g. test0.in)
     * Fiecare test va fi structurat în felul următor:
-      * Pe prima linie, N (int - numărul de elemente din secvență), N <= 10^6
-      * N elemente (numere întregi - reprezentabile pe 32 biti)
+      * Pe prima linie, N (int - numărul de noduri din arbore), M (int - numărul de interogări)      
+      * N-1 perechi de numere întregi, reprezentănd muchiile grafului
+      * M perechi de numere, reprezentând o interogare
+    * N, M <= 10^6 
       
 * Folder 'out' cu testele de ieșire
     * Fiecare test va fi numit "testID.out", unde ID reprezintă numărul
     testului (e.g. test0.out) 
-    * Fiecare test va conține secvența de elemente din testul de intrare 
-    corespunzător sortată ascendent.
+    * Fiecare test va conține răspunsurile la cele M interogări.
     
 * Folder 'other_tests'
     * Alte teste generate de voi (fișiere de intrare cu extensia .in, 

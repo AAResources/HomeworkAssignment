@@ -11,7 +11,6 @@
  *
  * The function returns a vector with the corresponding answers.
  */
-template<class T>
 std::vector<int> lca(const std::vector<std::vector<int>>& graph, const std::vector< std::pair<int, int> >& queries);
 
 #endif

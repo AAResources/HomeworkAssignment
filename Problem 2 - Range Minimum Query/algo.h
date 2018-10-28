@@ -11,7 +11,6 @@
  *
  * The function returns a vector with the corresponding answers.
  */
-template<class T>
 std::vector<int> rmq(const std::vector<int>& input, const std::vector< std::pair<int, int> >& queries);
 
 #endif

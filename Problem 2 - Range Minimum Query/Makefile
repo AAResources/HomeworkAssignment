@@ -9,4 +9,4 @@ algo.o: algo.cpp
 
 .PHONY: clean
 clean:
-	rm *.o
+	rm -rf *.o

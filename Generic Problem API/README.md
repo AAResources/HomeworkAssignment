@@ -4,7 +4,8 @@ Etapa 2:
 Arhiva trebuie sa contina fisierele:
 
 * algo.h
-
+    * Un set minimal de funcții care rezolvă problema aleasă.
+    
 * algo.cpp
     * Acesta va conține implementările funcțiilor definite in algo.h
 

@@ -8,6 +8,7 @@ Arhiva trebuie sa contina fisierele:
     
 * algo.cpp
     * Acesta va conține implementările funcțiilor definite in algo.h
+    * Acest fișier NU va conține o funcție main().
 
 * algo_test.cpp
     * Sursa care va citi datele de intrare corespunzătoare unui test de la stdin și va apela

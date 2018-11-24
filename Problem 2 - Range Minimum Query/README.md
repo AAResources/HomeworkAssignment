@@ -9,6 +9,7 @@ Arhiva trebuie sa contina fisierele:
     
 * algo.cpp
     * Acesta va conține implementările funcțiilor definite in algo.h
+    * Acest fișier NU va conține o funcție main().
 
 * Makefile 
     * va conține obligatoriu o regulă de build care va genera

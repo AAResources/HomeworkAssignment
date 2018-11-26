@@ -27,7 +27,7 @@ Arhiva trebuie sa contina fisierele:
     * Fiecare test va fi numit "testID.out", unde ID reprezintă numărul
     testului (e.g. test0.out) 
     * Fiecare test va conține matricea de adiacență cu distanțele minime între noduri 
-    (A[i][j] - distanta minima de la nodul i la nodul j)
+    (A[i][j] - distanta minima de la nodul i la nodul j, inf daca nu se poate ajunge de la i la j)
         
 * Folder 'other_tests'
     * Alte teste generate de voi (fișiere de intrare cu extensia .in, 

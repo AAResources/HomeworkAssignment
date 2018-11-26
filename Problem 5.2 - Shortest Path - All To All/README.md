@@ -1,16 +1,21 @@
 
 Etapa 2:
 
-Arhiva trebuie sa contina fisierele:
+Arhiva trebuie sa contina (minimal) fisierele:
 
 * algo.h
     * Un set minimal de funcții care rezolvă problema aleasă.
     * Puteți adăuga funcționalități suplimentare!
     
-* algo.cpp
-    * Acesta va conține cea mai eficientă implementare a funcțiilor definite in algo.h
+* (bonus) algo.cpp
+    * Acesta va conține cea mai eficientă/versatilă implementare a funcțiilor definite in algo.h
     * Acest fișier NU va conține o funcție main().
 
+* algo1.cpp (sau alta denumire)
+    * Implementarea uneia dintre solutiile propuse 
+* algo2.cpp 
+    ...
+    
 * Makefile 
     * va conține obligatoriu o regulă de build care va genera
     un fișier obiect algo.o, cu implementarea funcțiilor din algo.h

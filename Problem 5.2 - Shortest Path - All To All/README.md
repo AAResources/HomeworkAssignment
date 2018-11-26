@@ -9,12 +9,7 @@ Arhiva trebuie sa contina (minimal) fisierele:
     
 * (bonus) algo.cpp
     * Acesta va conține cea mai eficientă/versatilă implementare a funcțiilor definite in algo.h
-    * Acest fișier NU va conține o funcție main().
-
-* algo1.cpp (sau alta denumire)
-    * Implementarea uneia dintre solutiile propuse 
-* algo2.cpp 
-    ...
+    * Acest fișier NU va conține o funcție main().    
     
 * Makefile 
     * va conține obligatoriu o regulă de build care va genera
@@ -45,7 +40,13 @@ Arhiva trebuie sa contina (minimal) fisierele:
     * Numele și grupa
     * O descriere a arhivei - ce reprezintă fiecare fișier, mai ales dacă ați adăugat
     fișiere suplimentare.
-   
-            
-    
+  
+Puteti sa alegeti voi o structura pentru solutiile propriu-zise (documentati alegerea in Readme):
+
+De exemplu:
+* algo1.cpp 
+    * Implementarea uneia dintre solutiile propuse 
+* algo2.cpp 
+* algo3.cpp
+* ...
      

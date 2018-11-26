@@ -7,8 +7,8 @@ Arhiva trebuie sa contina fisierele:
     * Un set minimal de funcții care rezolvă problema aleasă.
     * Puteți adăuga funcționalități suplimentare!
     
-* algo.cpp
-    * Acesta va conține implementările funcțiilor definite in algo.h
+* (bonus) algo.cpp
+    * Acesta va conține cea mai eficientă/versatilă implementare a funcțiilor definite in algo.h
     * Acest fișier NU va conține o funcție main().
 
 * Makefile 
@@ -41,6 +41,11 @@ Arhiva trebuie sa contina fisierele:
     * O descriere a arhivei - ce reprezintă fiecare fișier, mai ales dacă ați adăugat
     fișiere suplimentare.
    
-            
-    
-     
+Puteti sa alegeti voi o structura pentru solutiile propriu-zise (documentati alegerea in Readme):
+
+De exemplu:
+* algo1.cpp 
+    * Implementarea uneia dintre solutiile propuse 
+* algo2.cpp 
+* algo3.cpp
+* ...           

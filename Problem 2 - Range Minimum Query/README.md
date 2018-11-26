@@ -4,9 +4,12 @@ Etapa 2:
 Arhiva trebuie sa contina fisierele:
 
 * algo.h
-
+    * Un set minimal de funcții care rezolvă problema aleasă.
+    * Puteți adăuga funcționalități suplimentare!
+    
 * algo.cpp
     * Acesta va conține implementările funcțiilor definite in algo.h
+    * Acest fișier NU va conține o funcție main().
 
 * Makefile 
     * va conține obligatoriu o regulă de build care va genera

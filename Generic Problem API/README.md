@@ -4,9 +4,11 @@ Etapa 2:
 Arhiva trebuie sa contina fisierele:
 
 * algo.h
-
+    * Un set minimal de funcții care rezolvă problema aleasă.
+    
 * algo.cpp
     * Acesta va conține implementările funcțiilor definite in algo.h
+    * Acest fișier NU va conține o funcție main().
 
 * algo_test.cpp
     * Sursa care va citi datele de intrare corespunzătoare unui test de la stdin și va apela

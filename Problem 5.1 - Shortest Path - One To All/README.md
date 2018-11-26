@@ -16,7 +16,7 @@ Arhiva trebuie sa contina fisierele:
     * Fiecare test va fi numit "testID.in", unde ID reprezintă numărul
     testului (e.g. test0.in)
     * Fiecare test va fi structurat în felul următor:
-      * Pe prima linie, N (int - numărul de noduri din arbore), M (int - numărul de muchii) și S (nodul sursă)      
+      * Pe prima linie, N (int - numărul de noduri dintr-un graf orientat), M (int - numărul de muchii) și S (nodul sursă)
       * M triplete: x, y, z - există o muchie de la x la y, de cost z
     * N <= 10^4, M <= min(N^2, 10^6)
       

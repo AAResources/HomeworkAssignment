@@ -3,6 +3,14 @@
 
 #include <vector>
 
+
+/*
+ * edge.first  -> the idx of the neighbour
+ * edge.second -> the cost 
+ */
+typedef std::pair<int, int> edge;
+
+
 /**
  * For a given input graph T, computes the distance from the source node to every other node in the graph.
  *
@@ -11,6 +19,6 @@
  *
  * @returns: A vector with the set of distances (Ans[i] - distance from source to node i)
  */
-std::vector<int> shortest_path(const std::vector<std::vector<int>>& graph, const int source);
+std::vector<int> shortest_path(const std::vector<std::vector<edge>>& graph, const int source);
 
 #endif

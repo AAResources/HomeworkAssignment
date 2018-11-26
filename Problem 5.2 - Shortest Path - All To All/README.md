@@ -8,7 +8,7 @@ Arhiva trebuie sa contina fisierele:
     * Puteți adăuga funcționalități suplimentare!
     
 * algo.cpp
-    * Acesta va conține implementările funcțiilor definite in algo.h
+    * Acesta va conține cea mai eficientă implementare a funcțiilor definite in algo.h
     * Acest fișier NU va conține o funcție main().
 
 * Makefile 

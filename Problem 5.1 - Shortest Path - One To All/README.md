@@ -21,7 +21,7 @@ Arhiva trebuie sa contina fisierele:
     * Fiecare test va fi structurat în felul următor:
       * Pe prima linie, N (int - numărul de noduri dintr-un graf orientat), M (int - numărul de muchii) și S (nodul sursă)
       * M triplete: x, y, z - există o muchie de la x la y, de cost z
-    * N <= 10^4, M <= min(N^2, 10^6)
+    * N <= 10^5, M <= min(N^2, 10^6)
       
 * Folder 'out' cu testele de ieșire
     * Fiecare test va fi numit "testID.out", unde ID reprezintă numărul

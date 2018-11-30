@@ -4,7 +4,7 @@ ID: Radu Iacob, 32X CA
 
 Contents:
 * **algo.h**  
-* Prototipul functiei generice sort().
+   * Prototipul functiei generice sort().
 
 * **algo.cpp**
    * Implementarea algoritmului InsertionSort. (cea mai buna solutie aleasa).

@@ -7,36 +7,36 @@ Contents:
 * Prototipul functiei generice sort().
 
 * **algo.cpp**
-Implementarea algoritmului InsertionSort. (cea mai buna solutie aleasa).
+   * Implementarea algoritmului InsertionSort. (cea mai buna solutie aleasa).
 
 * **algo2.cpp**
-Implementarea algoritmului SelectionSort.
+   * Implementarea algoritmului SelectionSort.
 
 * **Makefile**
-Acesta contine regulile:
+  * Acesta contine regulile:
+ 
+    * **build_best**
+      - compileaza executabilul care va testa cea mai buna solutie
+      pe testele default
 
-  * build_best 
-    - compileaza executabilul care va testa cea mai buna solutie
-    pe testele default
+    * **build_snd_best**
+      - compileaza executabilul care va testa a doua cea mai buna solutie
+      pe testele default
 
-  * build_snd_best
-    - compileaza executabilul care va testa a doua cea mai buna solutie
-    pe testele default
+    * **run**
+      - ruleaza testerul pe toate testele care corespund specificatiei
+      originale
 
-  * run
-    - ruleaza testerul pe toate testele care corespund specificatiei
-    originale
+    * **clean**
 
-  * clean
-
-* Folder 'in' cu testele de intrare  (2 teste)
+* Folder **'in'** cu testele de intrare  (2 teste)
     * Fiecare test este numit "**testID.in**", unde ID reprezintă numărul
     testului (e.g. test0.in)
     * Fiecare test este structurat în felul următor:
       * Pe prima linie, N (int - numărul de elemente din secvență), N <= 10^6
       * N elemente (numere întregi - reprezentabile pe 32 biti)
       
-* Folder 'out' cu testele de ieșire
+* Folder **'out'** cu testele de ieșire
     * Fiecare test este numit "**testID.out**", unde ID reprezintă numărul
     testului (e.g. test0.out) 
     * Fiecare test conține secvența de elemente din testul de intrare 

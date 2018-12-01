@@ -22,6 +22,7 @@ Arhiva trebuie sa contina fisierele:
       * Pe prima linie, N (int - numărul de noduri din arbore), M (int - numărul de interogări)      
       * N-1 perechi de numere întregi, reprezentănd muchiile grafului
       * M perechi de numere, reprezentând o interogare
+      * Radăcina grafului este nodul 1.
     * N, M <= 10^6 
       
 * Folder 'out' cu testele de ieșire

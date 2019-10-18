@@ -27,7 +27,7 @@ Arhiva trebuie sa contina fisierele:
 * Folder 'out' cu testele de ieșire
     * Fiecare test va fi numit "testID.out", unde ID reprezintă numărul
     testului (e.g. test0.out) 
-    * Fiecare test va conține distanța de la nodul sursă la fiecare nod din graf.
+    * Fiecare test va conține distanța de la nodul sursă la **celelalte** noduri din graf.
     
 * Folder 'other_tests'
     * Alte teste generate de voi (fișiere de intrare cu extensia .in, 

@@ -7,7 +7,7 @@
 /**
  * Sorts the elements from the input container in-place.
  *
- * By default, the container is sorted in ascending order, unless the reverse parameter reverse
+ * By default, the container is sorted in ascending order, unless the reverse parameter
  * is set to true.
  *
  */
@@ -17,7 +17,7 @@ void sort(std::vector<int>& input, const bool reverse);
  * (Optional) Implement a generic solution
  * Sorts the elements from the input container in-place.
  *
- * By default, the container is sorted in ascending order, unless the reverse parameter reverse
+ * By default, the container is sorted in ascending order, unless the reverse parameter
  * is set to true.
  *
  * The elements are compared using the cmp function.

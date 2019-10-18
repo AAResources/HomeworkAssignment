@@ -7,7 +7,7 @@
 /**
  * Sorts the elements from the input container in-place.
  *
- * By default, the container is sorted in ascending order, unless the reverse parameter reverse
+ * By default, the container is sorted in ascending order, unless the 'reverse' parameter
  * is set to true.
  *
  */

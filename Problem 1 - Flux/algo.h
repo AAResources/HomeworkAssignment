@@ -2,16 +2,14 @@
 #define ALGO_H
 
 #include <vector>
-
+#include <algorithm>
 /**
- * For a given input vector V, computes the minimum element between any two indices in V.
+ * For a given graph given by N (no of vertices), M (no of edges), vector< pair < pair <int,int> , int> >, computes the maximum flow in G.
  *
- * @input: elements of type int
- * @queries: a query is determined by a pair <x, y>, meaning: 
- * "What is the minimum element between positions x and y (inclusive)?"
- *
- * The function returns a vector with the corresponding answers for each query.
+ * @N: no of vertices
+ * @M: no of edges
+ * @V: tuples (a,b,c) -> edge from a to b, capacity c 
+ * @returns: the maximum flow 
  */
-std::vector<int> rmq(const std::vector<int>& input, const std::vector< std::pair<int, int> >& queries);
-
+int rmq(int N, int M, std::vector < std::pair< std::pair<int, int>, int> >);
 #endif

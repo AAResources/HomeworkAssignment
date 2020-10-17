@@ -6,7 +6,7 @@
 /**
  * For a given graph given by N (no of vertices), M (no of edges), vector< pair < pair <int,int> , int> >, computes the maximum flow in G.
  *
- * @N: no of vertices
+ * @N: no of vertices (node 1 is source, node N is destination)
  * @M: no of edges
  * @V: tuples (a,b,c) -> edge from a to b, capacity c 
  * @returns: the maximum flow 
